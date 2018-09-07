@@ -1,5 +1,4 @@
 "use strict";
-console.log("require: "+ JSON.stringify(require)+ " exports: "+ JSON.stringify(exports)+ "require: "+ JSON.stringify(require) + " module: "+ JSON.stringify(module));
 /*
  Q: Why an empty file?
  A: iOS doesn't need plumbing to get the plugin to work, so..
