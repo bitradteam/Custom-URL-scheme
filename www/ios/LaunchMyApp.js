@@ -47,7 +47,11 @@
         []);
     }
   }
-
+  
+   window.handleOpenURL = function(url) {
+    alert("handleOpenURL inside plugin executed. goto: "+url);
+    };
+ 
   module.exports = launchmyapp;
 
 }());
