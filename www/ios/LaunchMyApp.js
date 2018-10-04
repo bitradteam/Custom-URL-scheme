@@ -8,6 +8,8 @@
     - And if you're not using PhoneGap Build, you could paste your handleOpenUrl JS function here.
 */
 
-   window.handleOpenURL = function(url) {
-     setTimeout(function(){alert("handleOpenURL inside plugin executed. goto: ");}, 500);
-    };
+function handleOpenURL(url) {
+  setTimeout(function() {
+    alert("received url: " + url);
+  }, 0);
+}
