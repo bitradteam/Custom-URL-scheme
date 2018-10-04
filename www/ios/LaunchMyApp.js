@@ -49,7 +49,7 @@
   }
   
     window.handleOpenURL = function(url) {
-    alert("handleOpenURL inside plugin executed. goto: "+url);
+     setTimeout(function(){alert("handleOpenURL inside plugin executed. goto: ");}, 500);
     };
  
   module.exports = launchmyapp;
