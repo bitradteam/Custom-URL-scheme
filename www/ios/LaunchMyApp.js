@@ -7,9 +7,3 @@
     - Also, using one version and adding a userAgent check for Android feels wrong.
     - And if you're not using PhoneGap Build, you could paste your handleOpenUrl JS function here.
 */
-
-function handleOpenURL(url) {
-  setTimeout(function() {
-    alert("received url: " + url);
-  }, 0);
-}
